@@ -31,3 +31,42 @@ Progress Bar:
 
 To improve user experience, the script includes a progress bar that updates during CSV generation, showing the progress of the file processing.
 The "POS to CSV Converter" provides a convenient and efficient way to handle positioning data, associate it with image files, and analyze the sharpness of images for further data exploration and analysis. The user-friendly GUI and visual representation make it easy for users to interact with the script and understand the data at a glance.
+
+Installation Guide:
+
+Install Python:
+
+If you don't have Python installed, download and install the latest version of Python from the official website (https://www.python.org/downloads/).
+Make sure to select the option to add Python to PATH during the installation process.
+Install Required Packages:
+
+Open a command prompt or terminal.
+Install PyQt5 package using pip:
+pip install PyQt5
+
+Install pandas package using pip:
+pip install pandas
+
+Install OpenCV package using pip:
+pip install opencv-python
+
+Download the Script:
+
+Download the "POS to CSV Converter" script (pos_to_sheet.py) from the provided source or repository.
+Run the Script:
+
+Open a command prompt or terminal in the directory where the script (pos_to_sheet.py) is located.
+Run the script using Python:
+python pos_to_sheet.py
+GUI Interface:
+
+The script's graphical user interface (GUI) will open.
+Use the "Browse POS Files" button to select one or more .pos files containing positioning data.
+Use the "Browse Image Files" button to select one or more image files (in JPG format) to associate with the POS data.
+Click the "Generate CSV" button to start processing the data and generate the CSV file.
+View and Analyze Data:
+
+After generating the CSV file, the extracted data will be displayed in the GUI.
+The data will be presented in a tabular format with columns for image name, latitude, longitude, altitude, Q value, and sharpness value.
+The background color of the Q value and sharpness columns will indicate the positioning quality and sharpness of each image, respectively.
+With these installation steps, you should be able to use the "POS to CSV Converter" script to process POS files, associate them with image files, calculate image sharpness, and analyze the data conveniently through the GUI interface
